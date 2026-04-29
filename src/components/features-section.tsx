@@ -3,51 +3,51 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
+    title: "Rage Aimbot",
+    description: "Мгновенный захват цели с настраиваемым FOV, smooth и RCS. Работает сквозь дым и на любых дистанциях.",
+    icon: "target",
+    badge: "Убийца",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
+    title: "Wallhack ESP",
+    description: "Видишь врагов сквозь стены: health, armor, оружие, дистанция. Полная картина поля боя в реальном времени.",
     icon: "globe",
+    badge: "Визуал",
+  },
+  {
+    title: "Triggerbot",
+    description: "Автовыстрел при наведении прицела на врага. Мгновенная реакция быстрее любого человека.",
+    icon: "zap",
+    badge: "Реакция",
+  },
+  {
+    title: "No Recoil",
+    description: "Полная компенсация отдачи для всех оружий CS2. Очереди точные как одиночные выстрелы.",
+    icon: "link",
     badge: "Точность",
   },
   {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
-    icon: "zap",
-    badge: "Умный",
+    title: "Radar Hack",
+    description: "Все враги видны на миникарте всегда. Никаких сюрпризов — ты знаешь каждое движение противника.",
+    icon: "brain",
+    badge: "Карта",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
-  },
-  {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
-    icon: "target",
-    badge: "XR Ready",
+    title: "Антибан защита",
+    description: "Обход VAC, FACEIT и других античит систем. Регулярные обновления после каждого патча CS2.",
+    icon: "lock",
+    badge: "Безопасно",
   },
 ]
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-background">
+    <section id="technology" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Арсенал возможностей</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Всё что нужно для тотального доминирования в CS2 — в одном чите
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export function FeaturesSection() {
                     {feature.icon === "lock" && "&#128274;"}
                     {feature.icon === "globe" && "&#127760;"}
                     {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
+                    {feature.icon === "link" && "&#127919;"}
                     {feature.icon === "target" && "&#127919;"}
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
